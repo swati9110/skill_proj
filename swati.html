@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <style>
+          body{
+            margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+          
+
+          }
+          
+        input[type=text], select {
+          width: 70%;
+          padding: 12px 20px;
+           margin:5px 5px 10px 43px;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        
+        }
+        
+        input[type=submit] {
+          width: 0%;
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        div {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        h2{
+          text-align:center;
+          padding:20px;
+        }
+        sub{
+          color: red;
+        }
+          
+        </style>
+  </head>
+        
+<body>
+
+<h2>Details of employee</h2>
+<div>
+<form>
+<table>
+  <tr>
+  <td><label for="emp_name">emp_name<sub>*</sub></label></td>
+  <td><input type="text" id="emp_name" name="emp_name" value=""></td>
+  </tr>
+  <tr>
+ <td> <label for="emp_id">emp_id:</label></td>
+<td><input type="text" id="emp_id" name="emp_id" value=""></td>
+  </tr>
+  <tr>
+  <td><label for="Gender">Gender</label></td>
+  <td style=" padding-left:38px;"><input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label></td>
+  </tr>
+  <tr>
+    <td><label for="project">project:</label></td>
+  <td><input type="text" id="project" name="project" value=""></td>
+  </tr>
+  <tr>
+  <td><label for"technology">technology</label></td>
+<td><input type="text" id="technology" name ="technology" value=""></td>
+  </tr>
+  <tr>  
+ <td><label for"email">email</label></td>
+  <td><input type="text" id="email" name ="email" value=""></td>
+  </tr>
+  <tr>
+  <td><label for"Contact_no">Contact_no</label></td>
+<td><input type="text" id="Contact_no" name ="Contact_no" value=""></td>
+  </tr>
+</table>
+</form>
+</div>
+
+
+</body>
+</html>
