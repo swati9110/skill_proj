@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+        <style>
+           body{
+            
+margin: auto;
+  width: 50%; 
+  background-color: lightgray;         
+  border: 3px solid #73AD21;
+  padding: 10px;
+color:lightseagreen;
+
+          }
+          
+        input[type=text], select {
+          width: 90%;
+          padding: 12px 20px;
+           margin:5px 5px 10px 43px;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+        
+        }
+        
+        input[type=submit] {
+          width: 90%;
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        div {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        h1{
+          text-align:center;
+          padding:20px;
+        }
+        sub{
+          color: red;
+        }
+                
+                select {
+  width: 70%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+            </style>
+
+        <h1> Required skills</h1>
+
+<form>
+<table>
+  <tr>
+ <td> <label for="skill">skill</label></td>
+  <td><select id="skill" name="skill">
+        <option value="java">java</option>
+        <option value="C">C</option>
+        <option value="c#">c#</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+     <td> <label for="experience">experince</label></td>
+      <td><select id="experience" name="experince">
+            <option value="0-1yrs">0-1yrs</option>
+            <option value="2-4yrs">2_4yrs</option>
+            <option value="4-6yrs">4-6 yrs</option>
+
+          </select>
+        </td>
+      </tr>
+      <tr>
+  <td>
+  </td><td><input type="submit" value="search"></td>
+</tr>
+        </table>
+
+</form>
+
+</body>
+</html>
